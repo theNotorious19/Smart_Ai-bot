@@ -1,86 +1,35 @@
-# 🧠 AI Bot
+# Smart AI Chatbot
 
-An intelligent, modern web-based AI chatbot built with **React**, **TypeScript**, **Vite**, **Tailwind CSS**, and **shadcn/ui**.  
-It offers a fast, responsive, and elegant interface for interacting with AI models.
+![React](https://img.shields.io/badge/React-20232a?logo=react) ![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?logo=typescript&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646cff?logo=vite&logoColor=white)
 
----
+A responsive chatbot web application built with React, TypeScript, Vite, Tailwind CSS and shadcn/ui.
 
-## 🚀 Features
+## Features
+- Interactive conversational interface.
+- Responsive component-based UI.
+- TypeScript development and Vite build workflow.
 
-- ⚡ Built with **Vite** for lightning-fast development  
-- 🎨 Styled using **Tailwind CSS** and **shadcn/ui**  
-- 🧱 Type-safe components with **TypeScript**  
-- 💬 Interactive chatbot interface  
-- 📱 Fully responsive design  
+## Architecture
+```text
+Browser → React / TypeScript UI → configured application services
+```
+The repository also includes Supabase configuration. Model-provider integration and deployment have not been independently validated.
 
----
-
-## 🛠️ Tech Stack
-
-- **Frontend:** React, TypeScript, Vite  
-- **UI Components:** shadcn/ui  
-- **Styling:** Tailwind CSS  
-- **Package Manager:** npm  
-
----
-
-## ⚙️ Installation & Setup
-
-Follow these simple steps to run the project locally:
-
-### 1️⃣ Clone the repository
+## Local setup
 ```bash
-git clone <YOUR_GIT_URL>
-# 🧠 AI Bot
-
-A modern AI chatbot built with **React**, **TypeScript**, **Vite**, **Tailwind CSS**, and **shadcn/ui**.  
-Fast, responsive, and designed for smooth AI-powered conversations.
-
----
-
-## 🚀 Features
-- ⚡ Vite + TypeScript setup  
-- 🎨 Tailwind & shadcn/ui for styling  
-- 💬 Interactive chat interface  
-- 📱 Fully responsive design  
-
----
-
-## ⚙️ Setup
-
-```bash
-git clone <YOUR_GIT_URL>
-cd ai_bot
-npm install
+git clone https://github.com/theNotorious19/Smart_Ai-bot.git
+cd Smart_Ai-bot
+npm ci
 npm run dev
-Then open http://localhost:5173/ in your browser.
+```
+Open the local URL printed by Vite. Configure any required service environment variables locally. Never commit private API keys or service-role credentials. A tracked .env file should be reviewed and sensitive credentials rotated if present.
 
-🧠 Tech Stack
-React • TypeScript • Vite • Tailwind CSS • shadcn/ui
-
-☁️ Deploy
-Build and deploy easily on Vercel, Netlify, or GitHub Pages:
-
-bash
-Copy code
+## Production build
+```bash
 npm run build
-👨‍💻 Author
-Durvesh Sonawane
-Computer Engineering Student — Mumbai University
+```
 
-🪪 License
-MIT License
+## License
+See [LICENSE](LICENSE).
 
-yaml
-Copy code
-
----
-
-Would you like me to make it *even shorter* (like a 5-line minimal README), or is this concise version good for you?
-
-
-
-
-
-
-
+[Author: Durvesh Sonawane](https://github.com/theNotorious19)
